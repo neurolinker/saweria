@@ -56,7 +56,7 @@ export default function Sender() {
                 </div>
             </div>
             {/* rules section  */}
-            <div className = "flex font-comRegular text-sm mb-10">
+            <div className = "flex font-comRegular text-sm mb-10 w-full">
                 {/* container */}
                 <div className = "relative flex justify-center bg-[#D0E2DB] rounded-b-lg rounded-l-lg px-3 py-5 border border-black text-gray-600 w-full">
                     <div className = "flex text-sm nd:text-md  px-3">
