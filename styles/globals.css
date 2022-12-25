@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'comforta_regular';
+    src: url(../public/fonts/Comfortaa-SemiBold.ttf);
+} 
+@font-face {
+    font-family: 'comforta_medium';
+    src: url(../public/fonts/Comfortaa-Medium.ttf);
+}
+@font-face {
+    font-family: 'comforta_semi_bold';
+    src: url(../public/fonts/Comfortaa-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'comforta_bold';
+    src: url(../public/fonts/Comfortaa-Bold.ttf);
+}
+
+@layer base {
+    ul, ol {
+      list-style: revert;
+    }
+  }
