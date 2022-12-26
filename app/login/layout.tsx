@@ -8,7 +8,7 @@ export default function RootLayout({
     children: React.ReactNode;
   }) {
     return (
-        <div className = "bg-slate-600 p-3">{children}</div>
+        <div className = "w-full">{children}</div>
     );
   }
   
